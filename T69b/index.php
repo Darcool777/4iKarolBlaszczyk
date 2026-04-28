@@ -25,9 +25,13 @@
                 $tablica[$i][$j] = rand(10,99);
                 }
             }
-            echo "<pre>";
-            print_r($tablica);
-            echo "</pre>";
+            for($i=0; $i<5; $i++) {
+                for($j=0; $j<3; $j++) {
+                    echo $tablica[$i][$j]." ";
+                }
+                echo "<br>";
+            }
+            echo "<br>Wyniki<br>";
             $s1 = $tablica[0][0] + $tablica[0][1] + $tablica[0][2];
             $s2 = $tablica[1][0] + $tablica[1][1] + $tablica[1][2];
             $s3 = $tablica[2][0] + $tablica[2][1] + $tablica[2][2];
