@@ -17,7 +17,16 @@
 <section>
     <p>Po zapoznaniu się  z materiałem napisz skrypt, w którym zdefiniuj tablicę asocjacyjną - 5-elementową. W tablicy indeksami są nazwy państw, a wartościami ich stolice.</p>
             <?php
-
+            $tablica = array(
+                'Polska' => 'Warszawa',
+                'Niemcy' => 'Berlin',
+                'Francja' => 'Paryż',
+                'Włochy' => 'Rzym',
+                'Hiszpania' => 'Madryt'
+            );
+            echo "<pre>";
+            print_r($tablica);
+            echo "</pre>";
             ?>
 
 </section>
